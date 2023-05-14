@@ -1,0 +1,133 @@
+body{
+
+}
+
+.main {
+    font-family: "Inter";
+    color: white;
+    background-color: #6943FF;  
+    width: 550px;
+    height: 285px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    padding-top: 25px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+}
+
+input[type="number"]{
+    appearance: none;
+    box-sizing: border-box;
+    background-color: #6943FF;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    /* or 42% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 30px 0 0 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    margin-top: 27px;
+    width: 117px;
+    height: 42px;
+
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+
+}
+
+
+#footer{
+    margin: 0;
+    width: 550px;
+    height: 444px;
+    background-color:#1F2937; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+text-align: center;
+
+color: #CCC1FF;
+margin-bottom: 15px;
+}
+
+p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 0;
+}
+
+.convert-el{
+    width: 500px;
+    height: 108.57px;
+    background: #273549;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: #355070;
+    color: #CCC1FF;
+}
+
+footer{
+    font-family: 'Share Tech Mono', monospace;
+    color: #CCC1FF;
+}
